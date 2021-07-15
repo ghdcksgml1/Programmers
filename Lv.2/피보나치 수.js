@@ -1,4 +1,4 @@
-var dp = Array(100001).fill(0);
+let dp = Array(100001).fill(0);
 function solution(n) {
     dp[0]=0;dp[1]=1;
     for(let i=2;i<=n;i++){
